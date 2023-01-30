@@ -1,0 +1,18 @@
+$primary: #79c7c5;
+$white: #f9fbff;
+
+.form-container {
+  background: linear-gradient(to bottom left, $primary 40%, $white 100%);
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  width: 350px;
+  position: relative;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
